@@ -1,7 +1,10 @@
 Calling all Xamarin-Android gurus - this issue is way over my head. 
 
-I have a Google Play App Store product in beta testing that is experiencing catastrophic, repeatable, data-loss inducing failures related to `Xamarin.Forms.WebView` on **Android 13 only**. Feel free to [clone](https://github.com/IVSoftware/reproduce-android-13-webview-issue.git) my minimal reproducible example project with separate branches for `Telerik.RadRichTextEditor` and the `Syncfusion.SfRichTextEditor`. As I understand it both editors wrap the `WebView` as a last stop before java and the native control and other things I know little about. I want to emphasize that on my Android 12 physical device there are no issues whatsoever.
+I have a Google Play App Store product in beta testing that is experiencing catastrophic, repeatable, data-loss inducing failures related to `Xamarin.Forms.WebView` on **Android 13 only**. Feel free to [clone](https://github.com/IVSoftware/reproduce-android-13-webview-issue.git) my minimal reproducible example project with separate branches for `Telerik.RadRichTextEditor` and the `Syncfusion.SfRichTextEditor`. As I understand it both wrap the `WebView` which in turn wraps javascript calls to the native `Android` control.
+ 
+I do want to emphasize that this has worked for a long while on Android 12 physical devices with no issues. 
 
+***
 The testbench is simple: the single page has an editor on it, and we load some html into that editor.
 
 Xaml
@@ -44,7 +47,7 @@ This source behaves _correctly_ when the editor is tapped at the end of the text
 ***
 However, add just one character to the end of the html and _the entire document is erased_ as the WebView attempts to scroll to the character position. 
 
-[![telerik fail][2]][2]
+[![telerik-fail][2]][2]
 
     // In this source, a single character is added at the end of paragraph 2.
     public const string TestHtml02 =
@@ -55,16 +58,22 @@ However, add just one character to the end of the html and _the entire document 
         </body>
     </html>";
 
-![screenshot]()
+
 [log-fail-telerik.txt](https://github.com/IVSoftware/reproduce-android-13-webview-issue/blob/telerik/reproduce-android-13-webview-issue/reproduce-android-13-webview-issue/logs/log-fail-telerik.txt)
 
 ***
 **SfRichTextEditor (comparison)**
 With the `SfRichTextEditor`, the first html source still behaves normally. The html with the extra character still alters the document data, but in this case at least it doesn't destroy it all.
 
+[![syncfusion fail][3]][3]
+
+[log-fail-syncfusion.txt](https://github.com/IVSoftware/reproduce-android-13-webview-issue/blob/telerik/reproduce-android-13-webview-issue/reproduce-android-13-webview-issue/logs/log-fail-syncfusion.txt) 
+
+[log-pass-syncfusion.txt](https://github.com/IVSoftware/reproduce-android-13-webview-issue/blob/telerik/reproduce-android-13-webview-issue/reproduce-android-13-webview-issue/logs/log-pass-syncfusion.txt)
 ***
-I don't know what's happening here and am hoping that someone with knowledge of the internals can offer a solution, workaround or at least an explanation. For me, speculating,  it _smells_ like the WebView is attempting to ScrollToPosition when the soft input opens and the height changes. Perhaps there is some string measurement where the character index can be converted to view port coordinates. My rationale is that I ruled out the _length_ of the text as the problem. The thing is, I can just change the upper case 'ETU' in the failing source to a lower-case 'etu' and then it passes. To me this seems as though the lower case is _narrower_ in the proportional font and this makes a difference even though the character count has _not_ changed.
+I don't know what's happening here and am hoping that someone with knowledge of the internals can offer a solution, workaround or at least an explanation. For me, speculating,  it _smells_ like the WebView is attempting to ScrollToPosition when the soft input opens and the height changes. Perhaps there is some string measurement where the character index can be converted to view port coordinates. My rationale is that I ruled out the _length_ of the text as the problem. The thing is, I can just change the upper case 'ETU' in the failing source to a lower-case 'etu' and then it passes. To me this seems as though the lower case is _narrower_ in the proportional font and this makes a difference even though the character count has _not_ changed. Anyway, it took me days to get this isolated and I'm pretty desperate for some insight if you have any.
 
 
-  [1]: https://i.stack.imgur.com/KrW7e.png
-  [2]: https://i.stack.imgur.com/ryHMk.png
+  [1]: https://i.stack.imgur.com/lBU77.png
+  [2]: https://i.stack.imgur.com/HJtU4.png
+  [3]: https://i.stack.imgur.com/hcZDS.png
