@@ -1,0 +1,434 @@
+Forwarding debugger port 8893
+Detecting existing process
+> am start -a "android.intent.action.MAIN" -c "android.intent.category.LAUNCHER" -n "com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity"
+> Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity }
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/reproduce-android-13-webview-issue.Android.dll
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/FormsViewGroup.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/reproduce-android-13-webview-issue.dll
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/SkiaSharp.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/SkiaSharp.Views.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/SkiaSharp.Views.Forms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.Buttons.XForms.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.Buttons.XForms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.Core.XForms.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.Core.XForms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.Licensing.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfComboBox.XForms.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfComboBox.XForms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfPicker.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfPicker.XForms.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfPicker.XForms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfPopupLayout.XForms.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfPopupLayout.XForms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfRichTextEditor.XForms.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Syncfusion.SfRichTextEditor.XForms.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.CMapUtils.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Fixed.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Flow.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Flow.FormatProviders.Doc.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Flow.FormatProviders.Pdf.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Spreadsheet.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Spreadsheet.FormatProviders.OpenXml.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Spreadsheet.FormatProviders.Pdf.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.Spreadsheet.FormatProviders.Xls.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Documents.SpreadsheetStreaming.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Xamarin.Android.Chart.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Xamarin.Android.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Xamarin.Android.Data.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Xamarin.Android.Input.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Xamarin.Android.List.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Xamarin.Android.Primitives.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.Barcode.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.Chart.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.ConversationalUI.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.DataControls.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.DataGrid.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.DataVisualization.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.ImageEditor.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.Input.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.Map.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.PdfViewer.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.Primitives.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.RichTextEditor.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.XamarinForms.SkiaSharp.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Telerik.Zip.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Activity.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Annotation.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Annotation.Experimental.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.AppCompat.AppCompatResources.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.AppCompat.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Arch.Core.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Arch.Core.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.AsyncLayoutInflater.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Browser.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.CardView.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Collection.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Concurrent.Futures.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.ConstraintLayout.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.ConstraintLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.CoordinatorLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.CursorAdapter.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.CustomView.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.DocumentFile.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.DrawerLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.DynamicAnimation.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Fragment.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Interpolator.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Legacy.Support.Core.UI.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Legacy.Support.Core.Utils.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Legacy.Support.V4.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Lifecycle.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Lifecycle.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModel.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Loader.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.LocalBroadcastManager.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Media.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.MultiDex.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Navigation.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Navigation.Runtime.dll [External]
+[3_webview_issue] Late-enabling -Xcheck:jni
+[CompatibilityChangeReporter] Compat change id reported: 171979766; UID 10464; state: ENABLED
+[nativeloader] Configuring classloader-namespace for other apk /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64:/data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.companyname.reproduce_android_13_webview_issue
+[GraphicsEnvironment] ANGLE Developer option for 'com.companyname.reproduce_android_13_webview_issue' set to: 'default'
+[GraphicsEnvironment] ANGLE GameManagerService for com.companyname.reproduce_android_13_webview_issue: false
+[GraphicsEnvironment] Neither updatable production driver nor prerelease driver is supported.
+[NetworkSecurityConfig] No Network Security Config specified, using platform default
+[NetworkSecurityConfig] No Network Security Config specified, using platform default
+[debug-app-helper] Checking if libmonodroid was unpacked to /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64/libmonodroid.so
+[debug-app-helper] Native libs extracted to /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64, assuming application/android:extractNativeLibs == true
+[debug-app-helper] Setting up for DSO lookup in app data directories
+[debug-app-helper] Added filesystem DSO lookup location: /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64
+[debug-app-helper] Using runtime path: /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64
+[debug-app-helper] checking directory: `/data/user/0/com.companyname.reproduce_android_13_webview_issue/files/.__override__/lib`
+[debug-app-helper] directory does not exist: `/data/user/0/com.companyname.reproduce_android_13_webview_issue/files/.__override__/lib`
+[debug-app-helper] Checking whether Mono runtime exists at: /data/user/0/com.companyname.reproduce_android_13_webview_issue/files/.__override__/libmonosgen-2.0.so
+[debug-app-helper] Checking whether Mono runtime exists at: /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64/libmonosgen-2.0.so
+[debug-app-helper] Mono runtime found at: /data/app/~~7MuL-spBO0O8BSyXtXt5wg==/com.companyname.reproduce_android_13_webview_issue-1P2sYZ6Av9_AVlAcnYmB2Q==/lib/arm64/libmonosgen-2.0.so
+[3_webview_issue] Attempt to remove non-JNI local reference, dumping thread
+[monodroid] Creating public update directory: `/data/user/0/com.companyname.reproduce_android_13_webview_issue/files/.__override__`
+[3_webview_issue] Attempt to remove non-JNI local reference, dumping thread
+[monodroid-debug] Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8893,server=y,embedding=1
+[monodroid-gc] GREF GC Threshold: 46080
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Navigation.UI.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Preference.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Print.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.RecyclerView.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.SavedState.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.SlidingPaneLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.SwipeRefreshLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Tracing.Tracing.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.Transition.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.VectorDrawable.Animated.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.VectorDrawable.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.VersionedParcelable.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.ViewPager.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.AndroidX.ViewPager2.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Essentials.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Forms.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Forms.Platform.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Forms.Platform.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Forms.Xaml.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Google.Android.Material.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Xamarin.Google.Guava.ListenableFuture.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Mono.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Java.Interop.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/System.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Mono.Security.dll [External]
+[3_webview_issue] Attempt to remove non-JNI local reference, dumping thread
+[OpenGLRenderer] RenderThread::requireGlContext()
+[OpenGLRenderer] RenderThread::setGrContext()
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/netstandard.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/System.Core.dll [External]
+[DecorView] [INFO] isPopOver=false config=true
+[DecorView] updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@e7efe47[]
+[DecorView] setCaptionType = 0, this = DecorView@e7efe47[]
+[DecorView] getCurrentDensityDpi: from real metrics. densityDpi=480 msg=resources_loaded
+[DecorView] setWindowBackground: isPopOver=false color=ff303030 d=android.graphics.drawable.ColorDrawable@1d7179d
+[3_webview_issue] Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+[3_webview_issue] Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+[CompatibilityChangeReporter] Compat change id reported: 210923482; UID 10464; state: ENABLED
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/System.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/System.Resources.ResourceManager.dll [External]
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/System.Xml.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.Forms.Platform.Android.AppLinks.dll
+[WebViewFactory] Loading com.google.android.webview version 104.0.5112.97 (code 511209733)
+[ziparchive] Unable to open '/product/app/TrichromeLibrary/TrichromeLibrary.dm': No such file or directory
+[ziparchive] Unable to open '/product/app/TrichromeLibrary/TrichromeLibrary.dm': No such file or directory
+[nativeloader] Configuring classloader-namespace-shared for other apk /product/app/TrichromeLibrary/TrichromeLibrary.apk. target_sdk_version=33, uses_libraries=ALL, library_path=/product/app/WebViewGoogle/lib/arm64:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/arm64-v8a:/system/lib64:/system/system_ext/lib64:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand::/product/app/WebViewGoogle:/system/lib64:/system/system_ext/lib64
+[nativeloader] Extending system_exposed_libraries: libsce_v1.crypto.samsung.so:libheifcapture_jni.media.samsung.so:libjpegsq.media.samsung.so:libslljpeg.media.samsung.so:libsemimagecrop_jni.media.samsung.so:libapex_jni.media.samsung.so:libsume_mediabuffer_jni.media.samsung.so:libknox_remotedesktopclient.knox.samsung.so:libSDKRecognitionText.spensdk.samsung.so:libeden_rt_stub.edensdk.samsung.so:lib_vnd_client.dk.samsung.so:lib_native_client.dk.samsung.so:lib_nativeJni.dk.samsung.so:libteecl.teegris.samsung.so:libhumantracking.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libveengine.arcsoft.so:libimage_enhancement.arcsoft.so:liblow_light_hdr.arcsoft.so:libhigh_dynamic_range.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtensorfl
+[ziparchive] Unable to open '/product/app/WebViewGoogle/WebViewGoogle.dm': No such file or directory
+[ziparchive] Unable to open '/product/app/WebViewGoogle/WebViewGoogle.dm': No such file or directory
+[nativeloader] Configuring classloader-namespace-shared for other apk /product/app/WebViewGoogle/WebViewGoogle.apk. target_sdk_version=33, uses_libraries=, library_path=/product/app/WebViewGoogle/lib/arm64:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/arm64-v8a:/system/lib64:/system/system_ext/lib64:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand::/product/app/WebViewGoogle:/system/lib64:/system/system_ext/lib64
+[3_webview_issue] Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (unsupported, reflection, allowed)
+[3_webview_issue] Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (unsupported, reflection, allowed)
+[3_webview_issue] Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (unsupported, reflection, allowed)
+[3_webview_issue] Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (unsupported, reflection, allowed)
+[3_webview_issue] Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (unsupported, reflection, allowed)
+[cr_WVCFactoryProvider] Loaded version=104.0.5112.97 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+[cr_LibraryLoader] Successfully loaded native library
+[cr_CachingUmaRecorder] Flushed 9 samples from 9 histograms.
+[CompatibilityChangeReporter] Compat change id reported: 183155436; UID 10464; state: ENABLED
+[CompatibilityChangeReporter] Compat change id reported: 214741472; UID 10464; state: ENABLED
+[CompatibilityChangeReporter] Compat change id reported: 171228096; UID 10464; state: ENABLED
+[ConnectivityManager] StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4191)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:4755)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:4722)] [a40.e(chromium-TrichromeWebViewGoogle.apk-stable-511209733:142)] [Ob.a(chromium-TrichromeWebViewGoogle.apk-stable-511209733:31)] [org.chromium.android_webview.AwContentsLifecycleNotifier.onFirstWebViewCreated(chromium-TrichromeWebViewGoogle.apk-stable-511209733:54)] [J.N.MFiR_zHY(Native Method)] [org.chromium.android_webview.AwContents.<init>(chromium-TrichromeWebViewGoogle.apk-stable-511209733:49)] [com.android.webview.chromium.o.run(chromium-TrichromeWebViewGoogle.apk-stable-511209733:418)] [uH0.b(chromium-TrichromeWebViewGoogle.apk-stable-511209733:57)] [tH0.run(chromium-TrichromeWebViewGoogle.apk-stable-511209733:43)] [org.chromium.base.task.PostTask.d(chromium-TrichromeWebViewGoogle.apk-stable-511209733:115)] [uH0.a(chromium-TrichromeWebViewGoogle.apk-stable-511209733:43)] [com.android.webview.chromium.WebViewChromiumFactoryProvider.a(chromium-TrichromeWebViewGoogle.apk-stable-511209733:161)] [com.android.webview.chromium.WebViewChromium.init(chromium-TrichromeWebViewGoogle.apk-stable-511209733:364)] [android.webkit.WebView.<init>(WebView.java:448)] [android.webkit.WebView.<init>(WebView.java:368)] [android.webkit.WebView.<init>(WebView.java:350)] [android.webkit.WebView.<init>(WebView.java:337)] [android.webkit.WebView.<init>(WebView.java:327)] [crc64ea6df96ed6bce0ef.MainActivity.n_onCreate(Native Method)] [crc64ea6df96ed6bce0ef.MainActivity.onCreate(MainActivity.java:40)] [android.app.Activity.performCreate(Activity.java:8578)] [android.app.Activity.performCreate(Activity.java:8557)] [android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1384)] [android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4147)] [android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4312)] [android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:101)] [android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)] [android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)] [android.app.ActivityThread$H.handleMessage(ActivityThread.java:2571)]
+[ConnectivityManager] StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4191)] [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4233)] [android.net.ConnectivityManager.registerNetworkCallback(ConnectivityManager.java:4615)] [a40.e(chromium-TrichromeWebViewGoogle.apk-stable-511209733:116)] [Ob.a(chromium-TrichromeWebViewGoogle.apk-stable-511209733:31)] [org.chromium.android_webview.AwContentsLifecycleNotifier.onFirstWebViewCreated(chromium-TrichromeWebViewGoogle.apk-stable-511209733:54)] [J.N.MFiR_zHY(Native Method)] [org.chromium.android_webview.AwContents.<init>(chromium-TrichromeWebViewGoogle.apk-stable-511209733:49)] [com.android.webview.chromium.o.run(chromium-TrichromeWebViewGoogle.apk-stable-511209733:418)] [uH0.b(chromium-TrichromeWebViewGoogle.apk-stable-511209733:57)] [tH0.run(chromium-TrichromeWebViewGoogle.apk-stable-511209733:43)] [org.chromium.base.task.PostTask.d(chromium-TrichromeWebViewGoogle.apk-stable-511209733:115)] [uH0.a(chromium-TrichromeWebViewGoogle.apk-stable-511209733:43)] [com.android.webview.chromium.WebViewChromiumFactoryProvider.a(chromium-TrichromeWebViewGoogle.apk-stable-511209733:161)] [com.android.webview.chromium.WebViewChromium.init(chromium-TrichromeWebViewGoogle.apk-stable-511209733:364)] [android.webkit.WebView.<init>(WebView.java:448)] [android.webkit.WebView.<init>(WebView.java:368)] [android.webkit.WebView.<init>(WebView.java:350)] [android.webkit.WebView.<init>(WebView.java:337)] [android.webkit.WebView.<init>(WebView.java:327)] [crc64ea6df96ed6bce0ef.MainActivity.n_onCreate(Native Method)] [crc64ea6df96ed6bce0ef.MainActivity.onCreate(MainActivity.java:40)] [android.app.Activity.performCreate(Activity.java:8578)] [android.app.Activity.performCreate(Activity.java:8557)] [android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1384)] [android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4147)] [android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4312)] [android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:101)] [android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)] [android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)] [android.app.ActivityThread$H.handleMessage(ActivityThread.java:2571)]
+[3_webview_issue] Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (unsupported, reflection, allowed)
+[cr_media] Requires BLUETOOTH permission
+Loaded assembly: /data/data/com.companyname.reproduce_android_13_webview_issue/files/.__override__/Mono.Android.Export.dll [External]
+Loaded assembly: __callback_factory__ [External]
+[0:] PROPERTY CHANGED: Renderer
+[0:] 
+[MSHandlerLifeCycle] check: return. pkg=com.companyname.reproduce_android_13_webview_issue parent=null callers=com.android.internal.policy.DecorView.setVisibility:4373 android.app.ActivityThread.handleResumeActivity:5463 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176 
+[MSHandlerLifeCycle] removeMultiSplitHandler: no exist. decor=DecorView@e7efe47[]
+[NativeCustomFrequencyManager] [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+[InsetsController] onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 88 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 88), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=96, center=Point(96, 96)}, RoundedCorner{position=TopRight, radius=96, center=Point(984, 96)}, RoundedCorner{position=BottomRight, radius=96, center=Point(984, 2304)}, RoundedCorner{position=BottomLeft, radius=96, center=Point(96, 2304)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 88) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,124], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false} } host=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity from=android.view.ViewRootImpl.setView:1700
+[ViewRootImpl@78615cb[MainActivity]] setView = com.android.internal.policy.DecorView@e7efe47 TM=true
+[MSHandlerLifeCycle] removeMultiSplitHandler: no exist. decor=DecorView@e7efe47[MainActivity]
+Thread started: <Thread Pool> #2
+Thread started: <Thread Pool> #3
+Thread started: <Thread Pool> #4
+Thread started: <Thread Pool> #5
+[CompatibilityChangeReporter] Compat change id reported: 193247900; UID 10464; state: ENABLED
+[ViewRootImpl@78615cb[MainActivity]] performTraversals params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+[ViewRootImpl@78615cb[MainActivity]]   fl=81810100
+[ViewRootImpl@78615cb[MainActivity]]   pfl=12020040
+[ViewRootImpl@78615cb[MainActivity]]   bhv=DEFAULT
+[ViewRootImpl@78615cb[MainActivity]]   fitSides= naviIconColor=0}
+[ViewRootImpl@78615cb[MainActivity]] performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+[ViewRootImpl@78615cb[MainActivity]]   fl=81810100
+[ViewRootImpl@78615cb[MainActivity]]   pfl=12020040
+[ViewRootImpl@78615cb[MainActivity]]   bhv=DEFAULT
+[ViewRootImpl@78615cb[MainActivity]]   fitSides= naviIconColor=0}
+[BLASTBufferQueue] new BLASTBufferQueue, mNativeObject= 0x6ff5e7a400 name= ViewRootImpl@78615cb[MainActivity] sc.mNativeObject= 0x6ff5482da0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283 
+[BLASTBufferQueue] update, w= 1080 h= 2400 mNativeObject= 0x6ff5e7a400 sc.mNativeObject= 0x6ff5482da0 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:76 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 
+[ViewRootImpl@78615cb[MainActivity]] Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=16 res=0x3 s={true 0x706e4a9800} ch=true seqId=0
+[ViewRootImpl@78615cb[MainActivity]] mThreadedRenderer.initialize() mSurface={isValid=true 0x706e4a9800} hwInitialized=true
+[OpenGLRenderer] eglCreateWindowSurface
+[Gralloc4] mapper 4.x is not supported
+[Gralloc3] mapper 3.x is not supported
+[gralloc] Arm Module v1.0
+[Gralloc4] allocator 4.x is not supported
+[0:] PROPERTY CHANGED: Width
+[Gralloc3] allocator 3.x is not supported
+[0:] 
+[0:] PROPERTY CHANGED: Height
+[0:] 
+[ViewRootImpl@78615cb[MainActivity]] reportNextDraw android.view.ViewRootImpl.performTraversals:4313 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 
+[ViewRootImpl@78615cb[MainActivity]] Setup new sync id=0
+[ViewRootImpl@78615cb[MainActivity]] Setting syncFrameCallback
+[ViewRootImpl@78615cb[MainActivity]] registerCallbacksForSync syncBuffer=false
+[ViewRootImpl@78615cb[MainActivity]] Received frameDrawingCallback syncResult=0 frameNum=1.
+[ViewRootImpl@78615cb[MainActivity]] Setting up sync and frameCommitCallback
+[BLASTBufferQueue] [ViewRootImpl@78615cb[MainActivity]#0](f:0,a:0) onFrameAvailable the first frame is available
+[ViewRootImpl@78615cb[MainActivity]] Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+[OpenGLRenderer] CFMS:: SetUp Pid : 26127    Tid : 26201
+[ViewRootImpl@78615cb[MainActivity]] onSyncComplete
+[ViewRootImpl@78615cb[MainActivity]] setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4373 
+[ViewRootImpl@78615cb[MainActivity]] reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0x6ff5478f00
+[Dialog] mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+[DecorView] [INFO] isPopOver=false config=false
+[DecorView] updateCaptionType: isFloating=true isApplication=true hasWindowDecorCaption=false this=DecorView@aedc7aa[]
+[DecorView] setCaptionType = 0, this = DecorView@aedc7aa[]
+[DecorView] setWindowBackground: isPopOver=false color=ff010101 d=android.graphics.drawable.InsetDrawable@7133f38
+[ScrollView] initGoToTop
+[NativeCustomFrequencyManager] [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+[InsetsController] onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 88 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 88), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=96, center=Point(96, 96)}, RoundedCorner{position=TopRight, radius=96, center=Point(984, 96)}, RoundedCorner{position=BottomRight, radius=96, center=Point(984, 2304)}, RoundedCorner{position=BottomLeft, radius=96, center=Point(96, 2304)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 88) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,124], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false} } host=Telerik UI For Xamarin from=android.view.ViewRootImpl.setView:1700
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] setView = com.android.internal.policy.DecorView@aedc7aa TM=true
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] performTraversals params={(0,0)(wrapxwrap) gr=CENTER sim={adjust=pan forwardNavigation} ty=APPLICATION fmt=TRANSLUCENT wanim=0x7f0f0003 surfaceInsets=Rect(120, 120 - 120, 120)
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   fl=1820002
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   pfl=42000000
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   bhv=DEFAULT
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]  dimAmount=0.6 naviIconColor=0}
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(wrapxwrap) gr=CENTER sim={adjust=pan forwardNavigation} ty=APPLICATION fmt=TRANSLUCENT wanim=0x7f0f0003 surfaceInsets=Rect(120, 120 - 120, 120)
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   fl=1820002
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   pfl=42000000
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   bhv=DEFAULT
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]   fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]]  dimAmount=0.6 naviIconColor=0}
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Resizing android.view.ViewRootImpl@13ff4fe: frame = [0,805][1080,1539] reportDraw = true forceLayout = false syncSeqId = 0
+[BLASTBufferQueue] new BLASTBufferQueue, mNativeObject= 0x6ff56ae400 name= ViewRootImpl@b9c8fb2[Telerik UI For Xamarin] sc.mNativeObject= 0x6ff5a48c80 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283 
+[BLASTBufferQueue] update, w= 1320 h= 974 mNativeObject= 0x6ff56ae400 sc.mNativeObject= 0x6ff5a48c80 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:76 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Relayout returned: old=(0,88,1080,2256) new=(0,805,1080,1539) req=(1080,734)0 dur=16 res=0x3 s={true 0x6ff58b6000} ch=true seqId=0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] mThreadedRenderer.initialize() mSurface={isValid=true 0x6ff58b6000} hwInitialized=true
+[OpenGLRenderer] eglCreateWindowSurface
+[ScrollView]  onsize change changed 
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] reportNextDraw android.view.ViewRootImpl.performTraversals:4313 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Setup new sync id=0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Setting syncFrameCallback
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] registerCallbacksForSync syncBuffer=false
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Received frameDrawingCallback syncResult=0 frameNum=1.
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Setting up sync and frameCommitCallback
+[BLASTBufferQueue] [ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]#1](f:0,a:0) onFrameAvailable the first frame is available
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+[OpenGLRenderer] CFMS:: SetUp Pid : 26127    Tid : 26201
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] onSyncComplete
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4373 
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0x6ff5724700
+Thread started:  #6
+[ViewRootImpl@78615cb[MainActivity]] MSG_WINDOW_FOCUS_CHANGED 0 0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] handleResized, msg = 5 frames=ClientWindowFrames{frame=[0,805][1080,1539] display=[0,88][1080,2256] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] handleResized mSyncSeqId = 0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] reportNextDraw android.view.ViewRootImpl.handleResized:2380 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6522 android.view.ViewRootImpl$ViewRootHandler.handleMessage:6491 android.os.Handler.dispatchMessage:106 
+[ViewRootImpl@78615cb[MainActivity]] MSG_WINDOW_FOCUS_CHANGED 0 0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Setup new sync id=1
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Setting syncFrameCallback
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] registerCallbacksForSync syncBuffer=false
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Received frameDrawingCallback syncResult=0 frameNum=2.
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Setting up sync and frameCommitCallback
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false
+[BLASTBufferQueue] syncNextTransaction, acquireSingleBuffer= true mNativeObject= 0x6ff56ae400 callback= null caller= android.graphics.BLASTBufferQueue.syncNextTransaction:137 android.view.ViewRootImpl$12.lambda$onFrameDraw$0$android-view-ViewRootImpl$12:13158 android.view.ViewRootImpl$12$$ExternalSyntheticLambda1.onFrameCommit:9 android.view.ThreadedRenderer$1.lambda$onFrameDraw$0:789 android.view.ThreadedRenderer$1$$ExternalSyntheticLambda0.onFrameCommit:2 <bottom of call stack> 
+[BLASTBufferQueue] [ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]#1](f:0,a:1) syncNextTransaction callback: 0, acquireSingleBuffer: 1, mTransactionReadyCallback: 0
+[BLASTBufferQueue] gatherPendingTransactions, mNativeObject= 0x6ff56ae400 frameNumber= 2 caller= android.view.ViewRootImpl$12.lambda$onFrameDraw$0$android-view-ViewRootImpl$12:13165 android.view.ViewRootImpl$12$$ExternalSyntheticLambda1.onFrameCommit:9 android.view.ThreadedRenderer$1.lambda$onFrameDraw$0:789 android.view.ThreadedRenderer$1$$ExternalSyntheticLambda0.onFrameCommit:2 <bottom of call stack> <bottom of call stack> 
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] onSyncComplete
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] setupSync seqId=0 mSyncId=1 fn=2 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4373 
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] reportDrawFinished seqId=0 mSyncId=-1 fn=2 mSurfaceChangedTransaction=0x6ff5724700
+[0:] PROPERTY CHANGED: IsBusy
+[0:] <p></p>
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] MSG_WINDOW_FOCUS_CHANGED 1 0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0x6ff58b6000}
+[0:] PROPERTY CHANGED: BusyIndicatorContent
+[0:] <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis ante id eros aliquet faucibus.</p><p>Lore mi'ps umdol or si tame tc onse ct ETU etur adi piscinge lita liqu ams agitt is a NteIderOsew aliq uet.</p>
+[0:] PROPERTY CHANGED: IsBusy
+[0:] <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis ante id eros aliquet faucibus.</p><p>Lore mi'ps umdol or si tame tc onse ct ETU etur adi piscinge lita liqu ams agitt is a NteIderOsew aliq uet.</p>
+[0:] PROPERTY CHANGED: BusyIndicatorContent
+[0:] <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis ante id eros aliquet faucibus.</p><p>Lore mi'ps umdol or si tame tc onse ct ETU etur adi piscinge lita liqu ams agitt is a NteIderOsew aliq uet.</p>
+[0:] PROPERTY CHANGED: SelectionRange Start: 214 End: 214
+[0:] <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis ante id eros aliquet faucibus.</p><p>Lore mi'ps umdol or si tame tc onse ct ETU etur adi piscinge lita liqu ams agitt is a NteIderOsew aliq uet.</p>
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] ViewPostIme pointer 0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] ViewPostIme pointer 1
+[MSHandlerLifeCycle] removeMultiSplitHandler: no exist. decor=DecorView@aedc7aa[Telerik UI For Xamarin]
+[OpenGLRenderer] setSurface called with nullptr
+[OpenGLRenderer] setSurface() destroyed EGLSurface
+[OpenGLRenderer] destroyEglSurface
+[OpenGLRenderer] endAllActiveAnimators on 0x6ff58c2300 (RippleDrawable) with handle 0x70034be2a0
+[ViewRootImpl@b9c8fb2[Telerik UI For Xamarin]] dispatchDetachedFromWindow
+[InputTransport] Input channel destroyed: 'b4dda1e', fd=194
+[ViewRootImpl@78615cb[MainActivity]] MSG_WINDOW_FOCUS_CHANGED 1 0
+[ViewRootImpl@78615cb[MainActivity]] mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0x706e4a9800}
+[InputMethodManager] startInputInner - Id : 0
+[InputMethodManager] startInputInner - mService.startInputOrWindowGainedFocus
+[InputMethodManager] startInputInner - Id : 0
+[OpenGLRenderer] setSurface called with nullptr
+[InsetsController] onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 88 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 88), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=96, center=Point(96, 96)}, RoundedCorner{position=TopRight, radius=96, center=Point(984, 96)}, RoundedCorner{position=BottomRight, radius=96, center=Point(984, 2304)}, RoundedCorner{position=BottomLeft, radius=96, center=Point(96, 2304)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 88) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,124], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,0][0,0], mVisibleFrame=[0,1374][1080,2400], mVisible=false, mInsetsRoundedCornerFrame=false} } host=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6534
+
+
+
+#### S H O W    S O F T    I N P U T  
+
+
+
+[ViewRootImpl@78615cb[MainActivity]] ViewPostIme pointer 0
+[ViewRootImpl@78615cb[MainActivity]] ViewPostIme pointer 1
+[InputMethodManager] startInputInner - Id : 0
+[InputMethodManager] startInputInner - mService.startInputOrWindowGainedFocus
+[IMM_LC] ssi() - flag : 0 view : com.companyname.reproduce_android_13_webview_issue reason = SHOW_SOFT_INPUT
+[IMM_LC] ssi() view is not EditText
+[NativeCustomFrequencyManager] [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+[InsetsController] onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 88 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 88), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=96, center=Point(96, 96)}, RoundedCorner{position=TopRight, radius=96, center=Point(984, 96)}, RoundedCorner{position=BottomRight, radius=96, center=Point(984, 2304)}, RoundedCorner{position=BottomLeft, radius=96, center=Point(96, 2304)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 88) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,124], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false} } host=PopupWindow:d127fe9 from=android.view.ViewRootImpl.setView:1700
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] setView = android.widget.PopupWindow$PopupDecorView@395997a TM=true
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] performTraversals params={(0,88)(wrapxwrap) gr=TOP START CENTER sim={state=unchanged adjust=pan} ty=APPLICATION_SUB_PANEL fmt=TRANSLUCENT surfaceInsets=Rect(0, 0 - 0, 0) (manual)
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fl=41800208
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   pfl=42018000
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   bhv=DEFAULT
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR naviIconColor=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   sfl=20000}
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,88)(wrapxwrap) gr=TOP START CENTER sim={state=unchanged adjust=pan} ty=APPLICATION_SUB_PANEL fmt=TRANSLUCENT surfaceInsets=Rect(0, 0 - 0, 0) (manual)
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fl=41800208
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   pfl=42018000
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   bhv=DEFAULT
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR naviIconColor=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   sfl=20000}
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Resizing android.view.ViewRootImpl@9d1b52b: frame = [0,88][60,160] reportDraw = true forceLayout = false syncSeqId = 0
+[BLASTBufferQueue] new BLASTBufferQueue, mNativeObject= 0x6ff56ae700 name= ViewRootImpl@b0fa46e[PopupWindow:d127fe9] sc.mNativeObject= 0x6ff5a49d60 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283 
+[BLASTBufferQueue] update, w= 60 h= 72 mNativeObject= 0x6ff56ae700 sc.mNativeObject= 0x6ff5a49d60 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:76 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Relayout returned: old=(0,88,1080,2488) new=(0,88,60,160) req=(60,72)0 dur=5 res=0x3 s={true 0x6ff58b6000} ch=true seqId=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] mThreadedRenderer.initialize() mSurface={isValid=true 0x6ff58b6000} hwInitialized=true
+[OpenGLRenderer] eglCreateWindowSurface
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] reportNextDraw android.view.ViewRootImpl.performTraversals:4313 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Setup new sync id=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Setting syncFrameCallback
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] registerCallbacksForSync syncBuffer=false
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Received frameDrawingCallback syncResult=0 frameNum=1.
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Setting up sync and frameCommitCallback
+[BLASTBufferQueue] [ViewRootImpl@b0fa46e[PopupWindow:d127fe9]#2](f:0,a:0) onFrameAvailable the first frame is available
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+[OpenGLRenderer] CFMS:: SetUp Pid : 26127    Tid : 26201
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] onSyncComplete
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4373 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0x6ff5478900
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] handleResized, msg = 5 frames=ClientWindowFrames{frame=[0,88][60,160] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] handleResized mSyncSeqId = 0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] reportNextDraw android.view.ViewRootImpl.handleResized:2380 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6522 android.view.ViewRootImpl$ViewRootHandler.handleMessage:6491 android.os.Handler.dispatchMessage:106 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] performTraversals params={(161,511)(60x72) gr=TOP START CENTER sim={state=unchanged adjust=pan} ty=APPLICATION_SUB_PANEL fmt=TRANSLUCENT surfaceInsets=Rect(0, 0 - 0, 0) (manual)
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fl=41800208
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   pfl=2018000
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   bhv=DEFAULT
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR naviIconColor=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   sfl=20000}
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] performTraversals mFirst=false windowShouldResize=false viewVisibilityChanged=false mForceNextWindowRelayout=false params={(161,511)(60x72) gr=TOP START CENTER sim={state=unchanged adjust=pan} ty=APPLICATION_SUB_PANEL fmt=TRANSLUCENT surfaceInsets=Rect(0, 0 - 0, 0) (manual)
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fl=41800208
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   pfl=42018000
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   bhv=DEFAULT
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR naviIconColor=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]]   sfl=20000}
+[BLASTBufferQueue] update, w= 60 h= 72 mNativeObject= 0x6ff56ae700 sc.mNativeObject= 0x6ff5a49cc0 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2778 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Relayout returned: old=(0,88,60,160) new=(161,511,221,583) req=(60,72)0 dur=5 res=0x0 s={true 0x6ff58b6000} ch=false seqId=0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Setup new sync id=1
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Setting syncFrameCallback
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] registerCallbacksForSync syncBuffer=false
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Received frameDrawingCallback syncResult=0 frameNum=2.
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Setting up sync and frameCommitCallback
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] onSyncComplete
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] setupSync seqId=0 mSyncId=1 fn=2 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4373 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] reportDrawFinished seqId=0 mSyncId=-1 fn=2 mSurfaceChangedTransaction=0x6ff5478900
+[OnBackInvokedCallback] OnBackInvokedCallback is not enabled for the application.
+[OnBackInvokedCallback] Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+[ViewRootImpl@78615cb[MainActivity]] Resizing android.view.ViewRootImpl@c69e054: frame = [0,0][1080,2400] reportDraw = false forceLayout = false syncSeqId = 0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Resizing android.view.ViewRootImpl@9d1b52b: frame = [161,511][221,583] reportDraw = false forceLayout = false syncSeqId = 0
+[InsetsController] onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 88 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 88), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=96, center=Point(96, 96)}, RoundedCorner{position=TopRight, radius=96, center=Point(984, 96)}, RoundedCorner{position=BottomRight, radius=96, center=Point(984, 2304)}, RoundedCorner{position=BottomLeft, radius=96, center=Point(96, 2304)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 88) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,124], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,1374][1080,2400], mVisibleFrame=[0,1374][1080,2400], mVisible=false, mInsetsRoundedCornerFrame=false} } host=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6521
+[ViewRootImpl@78615cb[MainActivity]] handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] handleResized, msg = 4 frames=ClientWindowFrames{frame=[161,511][221,583] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+[InsetsController] show(ime(), fromIme=true)
+[InsetsController] controlAnimationUnchecked: Added types=8 animType=0 host=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity from=android.view.InsetsController.applyAnimation:1576 android.view.InsetsController.applyAnimation:1557 android.view.InsetsController.show:1063 
+[InsetsSourceConsumer] setRequestedVisible: visible=true, type=19, host=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity, from=android.view.InsetsSourceConsumer.show:250 android.view.ImeInsetsSourceConsumer.show:82 android.view.InsetsController.showDirectly:1609 android.view.InsetsController.controlAnimationUnchecked:1232 android.view.InsetsController.applyAnimation:1576 android.view.InsetsController.applyAnimation:1557 android.view.InsetsController.show:1063 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6555 android.view.ViewRootImpl$ViewRootHandler.handleMessage:6491 android.os.Handler.dispatchMessage:106 
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] Resizing android.view.ViewRootImpl@9d1b52b: frame = [161,511][221,583] reportDraw = false forceLayout = false syncSeqId = 0
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] handleResized, msg = 4 frames=ClientWindowFrames{frame=[161,511][221,583] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+[InsetsController] onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 88 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 568, 88), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 0,0 M 0,12.25101276465640 a 10.60613009248640,10.60613009248640 0 1,0 0,21.21226018497290 a 10.60613009248640,10.60613009248640 0 1,0 0,-21.21226018497290 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=96, center=Point(96, 96)}, RoundedCorner{position=TopRight, radius=96, center=Point(984, 96)}, RoundedCorner{position=BottomRight, radius=96, center=Point(984, 2304)}, RoundedCorner{position=BottomLeft, radius=96, center=Point(96, 2304)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 88) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[1080,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][1080,124], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][1080,88], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,2256][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_IME, mFrame=[0,1374][1080,2400], mVisibleFrame=[0,1374][1080,2400], mVisible=true, mInsetsRoundedCornerFrame=false} } host=com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity from=android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:6534
+[ViewRootImpl@78615cb[MainActivity]] Resizing android.view.ViewRootImpl@c69e054: frame = [0,0][1080,2400] reportDraw = false forceLayout = false syncSeqId = 0
+[ViewRootImpl@78615cb[MainActivity]] handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0] parentClippedByDisplayCutout=false} forceNextWindowRelayout=false displayId=0 resizeMode=-1 frameChanged=false displayFrameChanged=false configChanged=false displayChanged=false
+[InsetsController] cancelAnimation of types: 8, animType: 0, host: com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity, from:android.view.InsetsController.notifyFinished:1375 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0$android-view-InsetsAnimationThreadControlRunner$1:84 android.view.InsetsAnimationThreadControlRunner$1$$ExternalSyntheticLambda1.run:4 
+[InsetsSourceConsumer] ensureControlPosition: Point(0, 88) for ITYPE_IME on com.companyname.reproduce_android_13_webview_issue/crc64ea6df96ed6bce0ef.MainActivity from android.view.InsetsSourceConsumer.notifyAnimationFinished:417
+[ViewRootImpl@78615cb[MainActivity]] mWNT: t=0x6ff5488200 mBlastBufferQueue=0x6ff5e7a400 fn= 10 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4 
+[BLASTBufferQueue] mergeWithNextTransaction, mNativeObject= 0x6ff5e7a400 t.mNativeObject= 0x6ff5488200 frameNumber= 10 caller= android.view.ViewRootImpl.mergeWithNextTransaction:12594 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$android-view-SyncRtSurfaceTransactionApplier:69 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4 android.graphics.HardwareRenderer$FrameDrawingCallback.onFrameDraw:924 android.view.ViewRootImpl$6.onFrameDraw:2053 
+[OpenGLRenderer] setSurface called with nullptr
+[OpenGLRenderer] setSurface() destroyed EGLSurface
+[OpenGLRenderer] destroyEglSurface
+[ViewRootImpl@b0fa46e[PopupWindow:d127fe9]] dispatchDetachedFromWindow
+[InputTransport] Input channel destroyed: 'd6bd974', fd=184
+[0:] PROPERTY CHANGED: SelectionRange Start: 1 End: 214
+[0:] <p></p>
+Thread started: <Thread Pool> #7
+Thread started: <Thread Pool> #8
+Thread started: <Thread Pool> #9
+[0:] PROPERTY CHANGED: SelectionRange Start: 1 End: 1
+[0:] <p></p>
+[0:] PROPERTY CHANGED: SelectionRange Start: 3 End: 3
+[0:] <p></p><p></p>
+[0:] PROPERTY CHANGED: SelectionRange Start: 1 End: 1
+[0:] <p></p><p></p>
+[0:] PROPERTY CHANGED: SelectionRange Start: 1 End: 1
+[0:] <p></p><p></p>
+Thread finished: <Thread Pool> #2
+The thread 0x2 has exited with code 0 (0x0).
+Thread started: <Thread Pool> #10
+[3_webview_issue] Compiler allocated 6075KB to compile void android.view.ViewRootImpl.performTraversals()
+
+
