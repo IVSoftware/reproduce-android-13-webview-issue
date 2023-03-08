@@ -3,9 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:tkrtf="clr-namespace:Telerik.XamarinForms.RichTextEditor;assembly=Telerik.XamarinForms.RichTextEditor"
              x:Class="reproduce_android_13_webview_issue.MainPage">
-
     <Grid>
         <tkrtf:RadRichTextEditor x:Name="rteditor"/>
     </Grid>
-
 </ContentPage>
