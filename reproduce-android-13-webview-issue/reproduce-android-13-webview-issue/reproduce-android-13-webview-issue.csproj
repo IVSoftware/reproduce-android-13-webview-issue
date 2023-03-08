@@ -25,7 +25,6 @@
     <Content Include="logs\log-pass-syncfusion.txt" />
     <Content Include="logs\log-pass-telerik.txt" />
     <Content Include="logs\telerik-pass.png" />
-    <Content Include="logs\telerik-screenshots.png" />
   </ItemGroup>
 
   <ItemGroup>
