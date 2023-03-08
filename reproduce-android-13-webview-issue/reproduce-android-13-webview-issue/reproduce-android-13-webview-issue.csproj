@@ -11,12 +11,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Telerik.UI.for.Xamarin.Trial" Version="2021.2.728.1" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
+    <None Remove="logs\log-fail-syncfusion.txt" />
+    <None Remove="logs\log-fail-telerik.txt" />
+    <None Remove="logs\log-pass-syncfusion.txt" />
+    <None Remove="logs\log-pass-telerik.txt" />
+    <None Remove="logs\telerik-pass.png" />
+    <None Remove="logs\telerik-screenshots.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="logs\" />
+    <Content Include="logs\log-fail-syncfusion.txt" />
+    <Content Include="logs\log-fail-telerik.txt" />
+    <Content Include="logs\log-pass-syncfusion.txt" />
+    <Content Include="logs\log-pass-telerik.txt" />
+    <Content Include="logs\telerik-pass.png" />
+    <Content Include="logs\telerik-screenshots.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telerik.UI.for.Xamarin.Trial" Version="2021.2.728.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
   </ItemGroup>
 </Project>
