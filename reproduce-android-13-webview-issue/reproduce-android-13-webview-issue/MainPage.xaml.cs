@@ -16,8 +16,8 @@ namespace reproduce_android_13_webview_issue
         public MainPage()
         {
             InitializeComponent();
-            rteditor.Source = TestHtml01; // PASS
-            // rteditor.Source = TestHtml02; // FAIL
+            // rteditor.Source = TestHtml01; // PASS
+            rteditor.Source = TestHtml02; // FAIL
             // rteditor.Source = TestHtml03; // FAIL
             // rteditor.Source = TestHtml04;  // PASS
 
