@@ -1,3 +1,5 @@
+# Xamarin.Forms.WebView based editors failing on Android 13 only
+
 Calling all Xamarin-Android gurus - this issue is way over my head. 
 
 I have a Google Play App Store product in beta testing that is experiencing catastrophic, repeatable, data-loss inducing failures related to `Xamarin.Forms.WebView` on **Android 13 only**. Feel free to [clone](https://github.com/IVSoftware/reproduce-android-13-webview-issue.git) my minimal reproducible example project with separate branches for `Telerik.RadRichTextEditor` and the `Syncfusion.SfRichTextEditor`. As I understand it both wrap the `WebView` which in turn wraps javascript calls to the native `Android` control.
